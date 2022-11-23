@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 20px 100px;
+  justify-content: space-between;
+
+  .logoContainer {
+    height: 50px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .navItems {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+
+    a {
+      text-decoration: none;
+      color: #586871;
+      font-size: 1rem;
+      font-style: normal;
+      font-family: Inter;
+      font-weight: 500;
+      line-height: 19px;
+      font-weight: bold;
+    }
+  }
+
+  .registrationItems{
+
+    .loginBtn{
+      color: #C0A161;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    .signinBtn{
+      font-weight: bold;
+      color: white;
+      background-color: #009393;
+      padding: 10px 30px;
+      border-radius: 40px;
+    }
+  }
+}

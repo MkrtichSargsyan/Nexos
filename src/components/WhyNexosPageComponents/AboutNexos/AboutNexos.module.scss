@@ -1,0 +1,45 @@
+.aboutNexosSection {
+  background-color: #f9fafa;
+  padding: 100px 250px;
+
+  .aboutNexosDescription {
+    color: #2a3f4d;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-family: Inter_Bold;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+
+  .articlesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    article {
+      padding: 30px;
+      margin-bottom: 40px;
+      width: 48%;
+      background-color: white;
+
+      img{
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        margin-bottom: 20px;
+        color: #009393;
+        font-family: Inter_Bold;
+      }
+
+      p {
+        color: #586871;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-family: Inter;
+        line-height: 25px;
+      }
+    }
+  }
+}

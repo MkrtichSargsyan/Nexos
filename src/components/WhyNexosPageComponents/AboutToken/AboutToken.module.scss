@@ -1,0 +1,64 @@
+.aboutTokenSection {
+  background-color: #439492;
+  padding: 100px 250px;
+  position: relative;
+
+  .bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-family: Inter_Bold;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .articlesContainer {
+    display: flex;
+    justify-content: space-between;
+
+    article {
+      padding: 20px;
+      width: 30%;
+      background-color: #32a8a8;
+      border-radius: 6px;
+
+      h3 {
+        color: white;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-family: Inter_Bold;
+        line-height: 30px;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 0.875rem;
+        font-style: normal;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 25px;
+        color: #f2f2f5;
+      }
+
+      button {
+        background-color: inherit;
+        border: none;
+        color: #1ef0f0;
+        bottom: 0;
+        position: absolute;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

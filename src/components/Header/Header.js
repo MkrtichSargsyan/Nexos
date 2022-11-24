@@ -16,7 +16,6 @@ function Header() {
         <NavLink>News</NavLink>
         <NavLink>Nexos Gold</NavLink>
         <NavLink>Transparency</NavLink>
-        <NavLink></NavLink>
       </div>
       <div className='registrationItems'>
         <span className='loginBtn'>Log In</span>

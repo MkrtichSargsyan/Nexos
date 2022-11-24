@@ -19,3 +19,23 @@ body {
   color: #586871;
   background-color: #f9fafa;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Inter_Medium';
+  src: url('./assets/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Inter_Regular';
+  src: url('./assets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter_Bold';
+  src: url('./assets/fonts/Inter-Bold.ttf');
+}

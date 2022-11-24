@@ -2,8 +2,16 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid black;
-  padding: 20px 100px;
+  padding: 20px 200px;
   justify-content: space-between;
+
+  @media (max-width: 1400px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 900px) {
+    padding: 20px 100px;
+  }
 
   .logoContainer {
     height: 50px;
@@ -17,12 +25,17 @@ header {
     flex: 1;
     display: flex;
     justify-content: space-between;
-    margin: 0 140px;
+    margin: 0 9vw;
+
+    @media (max-width: 1400px) {
+      margin: 30px;
+      width: 100%;
+    }
 
     a {
       text-decoration: none;
       color: #586871;
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-style: normal;
       font-family: Inter;
       font-weight: 500;
@@ -31,14 +44,13 @@ header {
     }
   }
 
-  .registrationItems{
-
-    .loginBtn{
-      color: #C0A161;
+  .registrationItems {
+    .loginBtn {
+      color: #c0a161;
       margin-right: 20px;
       font-weight: bold;
     }
-    .signinBtn{
+    .signinBtn {
       font-weight: bold;
       color: white;
       background-color: #009393;

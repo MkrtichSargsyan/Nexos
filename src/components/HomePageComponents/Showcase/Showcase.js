@@ -8,7 +8,6 @@ function Showcase() {
   const [count, setCount] = useState(1);
 
   useEffect(() => {
-    console.log('Count: ' + count);
     setCount(1);
   }, [count]);
 

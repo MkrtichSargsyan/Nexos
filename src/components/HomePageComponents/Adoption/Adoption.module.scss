@@ -1,0 +1,85 @@
+.adoptionSection {
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    width: 45%;
+    text-align: center;
+    color: #232323;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-family: Inter_Bold;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    text-align: center;
+    width: 50%;
+    color: #586871;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .sliderSection {
+    width: 100%;
+    margin-bottom: 40px;
+
+    .sliderItem {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      background-color: white;
+
+      img {
+        width: 150px;
+        height: 100%;
+      }
+    }
+  }
+  .articles {
+    display: flex;
+    justify-content: space-between;
+
+    article {
+      padding: 40px;
+      width: 32%;
+      background-color: white;
+
+      h3 {
+        color: #009393;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-family: Inter_Bold;
+        width: 60%;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+
+        font-size: 0.875rem;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 25px;
+      }
+
+      button {
+        color: #c0a161;
+        border: none;
+        background-color: inherit;
+      }
+    }
+  }
+}

@@ -19,7 +19,7 @@ function TheFutureOfMoney() {
           ventures and innovation throughout the blockchain space. Tether Tokens
           exist as a digital token built on multiple blockchains.
         </p>
-        <buttton className={s.button}>Learn How Nexos Works</buttton>
+        <button className={s.button}>Learn How Nexos Works</button>
       </div>
     </section>
   );

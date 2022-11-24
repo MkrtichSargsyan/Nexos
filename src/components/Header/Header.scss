@@ -1,7 +1,6 @@
 header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid black;
   padding: 20px 200px;
   justify-content: space-between;
 
@@ -35,7 +34,8 @@ header {
     a {
       text-decoration: none;
       color: #586871;
-      font-size: 0.8rem;
+      // font-size: 0.8rem;
+      font-size: 14px;
       font-style: normal;
       font-family: Inter;
       font-weight: 500;
@@ -49,13 +49,15 @@ header {
       color: #c0a161;
       margin-right: 20px;
       font-weight: bold;
+      font-size: 14px
     }
     .signinBtn {
       font-weight: bold;
       color: white;
       background-color: #009393;
-      padding: 10px 30px;
-      border-radius: 40px;
+      border-radius: 30px;
+      padding: 10px 20px;
+      font-size: 14px
     }
   }
 }

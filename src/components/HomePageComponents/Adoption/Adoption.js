@@ -27,7 +27,7 @@ function Adoption() {
       <section className={s.sliderSection}>
         <Slider
           autoplay
-          slidesToShow={4}
+          slidesToShow={window.screen.width < 768 ? 1: 4}
           centerMode
           pauseOnHover={false}
           arrows={false}

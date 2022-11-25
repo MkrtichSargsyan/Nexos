@@ -4,6 +4,10 @@
   flex-direction: column;
   align-items: center;
 
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
   .title {
     width: 45%;
     text-align: center;
@@ -14,6 +18,12 @@
     font-weight: 700;
     line-height: 36px;
     margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      font-size: 1rem;
+      line-height: 24px;
+    }
   }
 
   p {
@@ -26,6 +36,12 @@
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      font-size: 0.7rem;
+      line-height: 16px;
+    }
   }
 
   .sliderSection {
@@ -49,10 +65,20 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     article {
       padding: 40px;
       width: 32%;
       background-color: white;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
 
       h3 {
         color: #009393;
@@ -63,6 +89,11 @@
         font-weight: 700;
         line-height: 36px;
         margin-bottom: 20px;
+
+        @media (max-width: 768px) {
+          font-size: 1.2rem;
+          width: 100%;
+        }
       }
       p {
         text-align: left;
@@ -73,6 +104,11 @@
         font-family: Inter;
         font-weight: 400;
         line-height: 25px;
+
+        @media (max-width: 768px) {
+          font-size: 0.8rem;
+          line-height: 18px;
+        }
       }
 
       button {

@@ -1,15 +1,18 @@
 import React from 'react';
 import './Header.scss';
 
-import logo from '../../assets/logo.png';
+import logo1 from '../../assets/logo1.png';
 import { NavLink } from 'react-router-dom';
 
-function Header() {
+import { HeaderContainer, LogoContainer, MenuContainer } from './Header.styles';
+import { ReactComponent as Menu } from '../../assets/menuBlack.svg';
+
+function Header({ openSidebar }) {
   return (
     <header>
       <NavLink to={'/'}>
         <div className="logoContainer">
-          <img src={logo} alt="logo" />
+          <img src={logo1} alt="logo" />
         </div>
       </NavLink>
       <div className="navItems">
@@ -23,6 +26,9 @@ function Header() {
         <span className="loginBtn">Log In</span>
         <span className="signinBtn">Sign Up</span>
       </div>
+      <MenuContainer to={'/'}>
+        <Menu onClick={() => openSidebar(true)} />
+      </MenuContainer>
     </header>
   );
 }

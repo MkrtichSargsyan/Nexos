@@ -8,30 +8,72 @@
 
   @media (max-width: 1200px) {
     flex-direction: column;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
   }
 
   .showcaseText {
     width: 40%;
 
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
     h1 {
       color: #232323;
-      font-size: 3.70rem;
+      font-size: 3.7rem;
       font-style: normal;
       font-family: Inter_Bold;
       font-weight: 800;
       line-height: 73px;
+
+      @media (max-width: 1200px) {
+       margin-top: 50px;
+       font-size: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 2.7rem;
+      }
     }
 
     .typistContainer {
       height: 200px;
+
+      @media (max-width: 768px) {
+        height: 140px;
+      }
+
       .typistItem {
         color: #232323;
         font-size: 3.65rem;
         font-family: Inter;
         line-height: 73px;
+
+        @media (max-width: 1200px) {
+         font-size: 1.8rem;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 2.2rem;
+          line-height: 50px;
+        }
       }
     }
     .showcaseButtons {
+
+      @media (max-width: 1200px) {
+       justify-content: space-between;
+       display: flex;
+      }
+
+      @media (max-width: 768px) {
+        display: flex;
+      }
 
       .createAccountBtn {
         background-color: #009393;
@@ -59,7 +101,12 @@
   .showcaseImg {
     height: 100%;
     width: 50%;
-    // width: 700px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      // height: 65vh;
+    }
+
     img {
       width: 100%;
       height: 100%;

@@ -10,26 +10,26 @@ function AboutToken() {
       <h2>The token that is disrupting the global financial industry</h2>
       <div className={s.articlesContainer}>
         <article>
-          <h3>Tether for Individuals</h3>
+          <h3>Nexos for Individuals</h3>
           <p>
-            Tether tokens offer exceptional liquidity on tier one exchanges
+            Nexos tokens offer exceptional liquidity on tier one exchanges
             giving traders the ability to take advantage of arbitrage
             opportunities in the fastest time possible.
           </p>
           <button>Learn more {'->'}</button>
         </article>
         <article>
-          <h3>Tether for Merchants</h3>
+          <h3>Nexos for Merchants</h3>
           <p>
-            For merchants, integrating Tether tokens opens up an array of
+            For merchants, integrating Nexos tokens opens up an array of
             opportunities for consumers to purchase products and services.
           </p>
           <button>Learn more {'->'}</button>
         </article>
         <article>
-          <h3>Tether for Exchanges</h3>
+          <h3>Nexos for Exchanges</h3>
           <p>
-            Tether tokens play a pivotal role in the digital token ecosystem and
+            Nexos tokens play a pivotal role in the digital token ecosystem and
             are the most actively traded in terms of 24-hour volume.
           </p>
           <button>Learn more {'->'}</button>

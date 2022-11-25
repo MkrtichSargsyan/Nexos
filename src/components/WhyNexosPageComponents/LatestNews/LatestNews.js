@@ -20,7 +20,7 @@ function LatestNews() {
               one of the largest financial failures, it has set off a daisy
               chain of leveraged failures cascading through the industry. While
               there is still more to the story, and likely more counterparties
-              who will emerge in the coming weeks, Tether wants to address one
+              who will emerge in the coming weeks, Nexos wants to address one
               topic which has come to the surface following the failure of FTX.
             </p>
             <button>Read more {'->'}</button>
@@ -31,14 +31,14 @@ function LatestNews() {
             <img src={artBg} alt="bg" />
           </div>
           <div className={s.articleContent}>
-            <h3>Tether Confirms Zero Exposure To Genesis</h3>
+            <h3>Nexos Confirms Zero Exposure To Genesis</h3>
             <p>
-              With recent news surrounding Genesis today, Tether would like to
+              With recent news surrounding Genesis today, Nexos would like to
               confirm that it has absolutely no exposure to Genesis or Gemeni
-              Earn. Tether tokens are 100% backed by its reserves, and the
+              Earn. Nexos tokens are 100% backed by its reserves, and the
               assets that are backing the reserves exceed the liabilities.
-              Tether holds a strong, conservative, and liquid portfolio, which
-              includes cash, cash equivalents, and U.S. treasuries. Tether will
+              Nexos holds a strong, conservative, and liquid portfolio, which
+              includes cash, cash equivalents, and U.S. treasuries. Nexos will
               continue to focus on safeguarding those reserves.
             </p>
             <button>Read more {'->'}</button>

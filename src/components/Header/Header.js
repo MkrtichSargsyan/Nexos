@@ -14,7 +14,7 @@ function Header() {
       </NavLink>
       <div className="navItems">
         <NavLink to={'why-nexos'}>Why Nexos</NavLink>
-        <NavLink>How it works</NavLink>
+        <NavLink to={'how-it-works'}>How it works</NavLink>
         <NavLink>News</NavLink>
         <NavLink>Nexos Gold</NavLink>
         <NavLink>Transparency</NavLink>

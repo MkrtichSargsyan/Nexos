@@ -69,7 +69,7 @@ function Footer() {
         </div>
         <div>
           <h6>
-            Copyright © 2013-2022 Tether Operations Limited. All rights
+            Copyright © 2013-2022 Nexos Operations Limited. All rights
             reserved.
           </h6>
 

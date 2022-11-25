@@ -12,8 +12,8 @@ function WhyUseNexos() {
       <div className={s.whyUseNexosDescription}>
         <h1>Why use Nexos</h1>
         <p>
-          Launched in 2014, Tether tokens (USD₮) pioneered the stablecoin model
-          and are the most widely traded. Tether tokens offer the stability and
+          Launched in 2014, Nexos tokens (USD₮) pioneered the stablecoin model
+          and are the most widely traded. Nexos tokens offer the stability and
           simplicity of fiat currencies coupled with the innovative nature of
           blockchain technology, representing a perfect combination of both
           worlds.

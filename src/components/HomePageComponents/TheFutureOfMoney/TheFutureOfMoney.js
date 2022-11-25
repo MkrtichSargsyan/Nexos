@@ -12,11 +12,11 @@ function TheFutureOfMoney() {
       <div className={s.description}>
         <h2>Driving the Future of Money</h2>
         <p>
-          Tether tokens are the most widely adopted stablecoins, having
+          Nexos tokens are the most widely adopted stablecoins, having
           pioneered the concept in the digital token space. A disruptor to the
           conventional financial system and a trailblazer in the digital use of
-          traditional currencies, Tether Tokens support and empower growing
-          ventures and innovation throughout the blockchain space. Tether Tokens
+          traditional currencies, Nexos Tokens support and empower growing
+          ventures and innovation throughout the blockchain space. Nexos Tokens
           exist as a digital token built on multiple blockchains.
         </p>
         <button className={s.button}>Learn How Nexos Works</button>

@@ -14,7 +14,7 @@ function AboutNexos() {
   return (
     <section className={s.aboutNexosSection}>
       <p className={s.aboutNexosDescription}>
-        Whether it is for personal use or business purposes, Tether tokens offer
+        Whether it is for personal use or business purposes, Nexos tokens offer
         many <br /> benefits as the most stable, liquid and trusted stablecoin.
       </p>
 
@@ -23,7 +23,7 @@ function AboutNexos() {
           <img src={im6} alt="im" />
           <h3>Multiple blockchains support</h3>
           <p>
-            Tether tokens are built on multiple blockchains—offering easy
+            Nexos tokens are built on multiple blockchains—offering easy
             integration and adoption. Supported blockchains are Bitcoin (Omni &
             Liquid protocol), Ethereum, TRON, EOS, Algorand, Solana, OMG
             Network, and Bitcoin Cash (SLP).
@@ -42,17 +42,17 @@ function AboutNexos() {
           <h3>Widespread Adoption</h3>
           <p>
             From exchanges and digital wallet apps to decentralised finance
-            (DeFi) protocols and payment services, Tether tokens offer a smart
+            (DeFi) protocols and payment services, Nexos tokens offer a smart
             alternative to fiat gateways.
           </p>
         </article>
         <article>
           <img src={im4} alt="im" />
-          <h3>100% backed by Tether’s reserves</h3>
+          <h3>100% backed by Nexos’s reserves</h3>
           <p>
-            All Tether tokens are pegged at 1-to-1 with a matching fiat currency
-            (e.g., 1 USD₮ = 1 USD) and are backed 100% by Tether’s reserves. The
-            reserves match or exceed the amount required to redeem all Tether
+            All Nexos tokens are pegged at 1-to-1 with a matching fiat currency
+            (e.g., 1 USD₮ = 1 USD) and are backed 100% by Nexos’s reserves. The
+            reserves match or exceed the amount required to redeem all Nexos
             tokens in circulation.
           </p>
         </article>
@@ -60,7 +60,7 @@ function AboutNexos() {
           <img src={im5} alt="im" />
           <h3>Fully transparent</h3>
           <p>
-            Tether tokens’ issued and reserve assets are publicly available and
+            Nexos tokens’ issued and reserve assets are publicly available and
             updated.{' '}
           </p>
         </article>
@@ -68,9 +68,9 @@ function AboutNexos() {
           <img src={im8} alt="im" />
           <h3>Available in different currencies</h3>
           <p>
-            Tether supports US dollar (USD), euro (EUR), Mexican Peso (MXN),
-            British Pound Sterling (Tether GBP) and offshore Chinese yuan (CNH).
-            Represented by ₮, Tether tokens are denoted as USD₮, EUR₮, MXN₮,
+            Nexos supports US dollar (USD), euro (EUR), Mexican Peso (MXN),
+            British Pound Sterling (Nexos GBP) and offshore Chinese yuan (CNH).
+            Represented by ₮, Nexos tokens are denoted as USD₮, EUR₮, MXN₮,
             GBP₮, CNH₮.
           </p>
         </article>
@@ -78,7 +78,7 @@ function AboutNexos() {
           <img src={im1} alt="im" />
           <h3>Regulatory-compliant</h3>
           <p>
-            Tether maintains world-class standardised compliance measures for
+            Nexos maintains world-class standardised compliance measures for
             anti-money laundering (AML), countering the financing of terrorism
             (CFT), sanctions, and know your customer (KYC) laws and regulations.
           </p>

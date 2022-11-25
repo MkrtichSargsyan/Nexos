@@ -4,8 +4,37 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    padding: 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .imgContainer {
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
   .blockchainreadyContainer {
     width: 40%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      order: 1;
+    }
     h2 {
       color: #232323;
       font-size: 2.5rem;
@@ -13,6 +42,12 @@
       font-family: Inter_Bold;
       font-weight: 700;
       line-height: 48px;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
     }
     p {
       color: #586871;
@@ -21,6 +56,11 @@
       font-family: Inter;
       font-weight: 400;
       line-height: 26px;
+
+      @media (max-width: 768px) {
+        font-size: 0.8rem;
+        line-height: 18px;
+      }
     }
   }
 }

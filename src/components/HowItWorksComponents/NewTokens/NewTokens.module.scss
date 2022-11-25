@@ -2,6 +2,10 @@
   padding: 100px 300px;
   background-color: rgb(209, 239, 239);
 
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
   h2 {
     font-size: 1.875rem;
     font-style: normal;
@@ -9,6 +13,12 @@
     font-weight: 700;
     line-height: 36px;
     color: #009393;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
   }
 
   p {
@@ -18,5 +28,10 @@
     font-size: 1.2rem;
     font-family: Inter_Bold;
     line-height: 34px;
+
+    @media (max-width: 768px) {
+      font-size: 0.8rem;
+      line-height: 18px;
+    }
   }
 }

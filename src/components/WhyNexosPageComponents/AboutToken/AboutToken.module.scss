@@ -3,10 +3,23 @@
   padding: 100px 250px;
   position: relative;
 
+  @media (max-width: 1200px) {
+    padding: 100px 100px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
   .bgImage {
     position: absolute;
     top: 0;
     left: 0;
+
+    @media (max-width: 768px) {
+      width: 100%;
+     
+    }
   }
 
   h2 {
@@ -20,17 +33,32 @@
     color: white;
     text-align: center;
     margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      font-size: 1.8rem;
+      line-height: 28px;
+    }
   }
 
   .articlesContainer {
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     article {
       padding: 20px;
       width: 30%;
       background-color: #32a8a8;
       border-radius: 6px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 20px;
+      }
 
       h3 {
         color: white;

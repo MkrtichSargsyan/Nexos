@@ -6,6 +6,15 @@
   position: relative;
   background-color: white;
 
+  @media (max-width: 1200px) {
+    padding: 100px 100px 100px 100px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    flex-direction: column;
+  }
+
   .bgImage{
     position: absolute;
     top: 0;
@@ -15,6 +24,10 @@
   .whyUseNexosDescription {
     width: 40%;
 
+    @media (max-width: 768px) {
+     width: 100%;
+    }
+
     h1 {
       color: #232323;
       font-size: 3.75rem;
@@ -23,6 +36,11 @@
       font-weight: 800;
       line-height: 63px;
       margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 1.4rem;
+        line-height: 18px;
+      }
     }
 
     p {
@@ -31,11 +49,20 @@
       font-family: Inter;
       font-weight: 700;
       line-height: 30px;
+
+      @media (max-width: 768px) {
+        font-size: 0.8rem;
+        line-height: 18px;
+      }
     }
   }
 
   .imageContainer {
     width: 45%;
+
+    @media (max-width: 768px) {
+     width: 100%;
+    }
 
     img {
       width: 100%;

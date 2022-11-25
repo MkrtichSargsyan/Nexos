@@ -18,6 +18,10 @@ footer {
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 1200px) {
+      padding: 100px 50px;
+    }
+
     @media (max-width: 768px) {
       flex-direction: column;
       padding: 20px;

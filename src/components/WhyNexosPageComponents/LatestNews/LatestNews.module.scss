@@ -2,6 +2,14 @@
   padding: 100px 250px;
   background-color: white;
 
+  @media (max-width: 1200px) {
+    padding: 100px 100px;
+  }
+
+  @media (max-width: 768px) {
+   padding: 20px;
+  }
+
   h2 {
     text-align: center;
     color: #232323;
@@ -17,8 +25,16 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+     flex-direction: column;
+    }
+
     article {
       width: 48%;
+
+      @media (max-width: 768px) {
+       width: 100%;
+      }
 
       .imageContainer {
         img {

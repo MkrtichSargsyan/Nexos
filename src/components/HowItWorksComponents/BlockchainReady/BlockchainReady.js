@@ -16,7 +16,7 @@ function BlockchainReady() {
           capabilities depending on the transport protocol used.
         </p>
       </div>
-      <div>
+      <div className={s.imgContainer}>
         <img src={im8} alt="im8" className={s.bgImage} />
       </div>
     </section>

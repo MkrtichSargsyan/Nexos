@@ -5,15 +5,44 @@
   justify-content: end;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    flex-direction: column;
+  }
+
   .bgImage {
     position: absolute;
     top: 0;
     left: 0;
+
+    @media (max-width: 1200px) {
+      width: 50%;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      position: unset;
+      margin-bottom: 20px;
+    }
   }
 
   .stabilityGrowthDescription {
     margin-top: 150px;
     width: 50%;
+
+    @media (max-width: 1200px) {
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-top: 20px;
+    }
 
     h2 {
       width: 60%;
@@ -24,6 +53,13 @@
       font-weight: 700;
       line-height: 48px;
       margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
     }
     p {
       color: #586871;
@@ -32,6 +68,11 @@
       font-family: Inter;
       font-weight: 400;
       line-height: 28px;
+
+      @media (max-width: 768px) {
+        font-size: 0.8rem;
+        line-height: 18px;
+      }
     }
   }
 }

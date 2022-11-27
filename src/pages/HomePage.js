@@ -10,8 +10,8 @@ function HomePage() {
   return (
     <main>
       <Showcase />
-      <TheFutureOfMoney />
       <VideoExplanation />
+      <TheFutureOfMoney />
       <FullyTransparent />
       <Adoption />
       {/* <Faq /> */}

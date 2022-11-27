@@ -19,12 +19,9 @@ export const SidebarContainer = styled.section`
   position: fixed;
   /* min-height: 100vh; */
   height: 100%;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   z-index: 2000;
   transition: 1s;
-
-  /* background: rgba(4, 4, 4, 0.79);
-  backdrop-filter: blur(19px); */
   background-color: white;
 
   @media (max-width: 415px) {
@@ -44,7 +41,13 @@ export const SidebarMenuContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  padding: 20px 50px;
+  background-color: #4e4e4e;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const SidebarDataContainer = styled.div`
@@ -71,11 +74,11 @@ export const SidebarItem = styled(Link)`
 
   @media (max-width: 768px) {
     width: 100%;
-    text-decoration:none ;
+    text-decoration: none;
     font-size: 4.2vw;
     line-height: 3vw;
 
-    &:hover{
+    &:hover {
       cursor: pointer;
     }
   }

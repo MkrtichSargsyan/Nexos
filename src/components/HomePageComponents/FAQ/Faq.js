@@ -20,7 +20,7 @@ function Faq() {
         title: 'How do Nexos tokens work?',
         content: `
           <p>Nexos tokens exist as digital tokens built on several leading blockchains, including Algorand, Avalanche, Bitcoin Cash’s Simple Ledger Protocol (SLP), Ethereum, EOS, Liquid Network, Omni, Polygon, Tezos, Tron, Solana and Statemine. These transport protocols consist of open source software that interface with blockchains to allow for the issuance and redemption of Nexos tokens. </p><br />
-          <p>Every Nexos token is 100% backed by our reserves, which includes traditional currency and cash equivalents, and may include other assets and receivables from loans made by Nexos to third parties.</p><br />
+          <p>Every Nexos token is 500% over-collateralised and fully transparent, which includes traditional currency and cash equivalents, and may include other assets and receivables from loans made by Nexos to third parties.</p><br />
           <p>The Nexos platform is fully reserved when the sum of all Nexos tokens in circulation is less than or equal to the value of our reserves. Through our </p><br />
           <p>Nexos was originally created to use the Bitcoin network as its transport protocol—specifically, the Omni Layer—to allow transactions of tokenised traditional currency. Since this original version of Nexos uses the Bitcoin blockchain, it inherits the inherent stability and security of the longest established blockchain network.</p>
        `,

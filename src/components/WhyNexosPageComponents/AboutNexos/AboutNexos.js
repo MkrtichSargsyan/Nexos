@@ -39,21 +39,21 @@ function AboutNexos() {
         </article>
         <article>
           <img src={im7} alt="im" />
-          <h3>Widespread Adoption</h3>
+          <h3>A new way to build trust</h3>
           <p>
-            From exchanges and digital wallet apps to decentralised finance
-            (DeFi) protocols and payment services, Nexos tokens offer a smart
-            alternative to fiat gateways.
+            From the first to the most used stablecoin and one of the most
+            traded tokens by volume, this is the path Nexos wants to take with
+            $NUSD. Because the entire crypto market today is based on
+            stablecoins, where it is not certain whether and how much collateral
+            they have deposited, Nexos will usher in a new era.
           </p>
         </article>
         <article>
           <img src={im4} alt="im" />
-          <h3>100% backed by Nexos’s reserves</h3>
+          <h3>500% over-collateralised and fully transparent</h3>
           <p>
-            All Nexos tokens are pegged at 1-to-1 with a matching fiat currency
-            (e.g., 1 USD₮ = 1 USD) and are backed 100% by Nexos’s reserves. The
-            reserves match or exceed the amount required to redeem all Nexos
-            tokens in circulation.
+            All Nexos tokens ($NUSD) are 500% backed by Nexos reserves. We
+            publish a daily report on the current total assets and reserves.
           </p>
         </article>
         <article>

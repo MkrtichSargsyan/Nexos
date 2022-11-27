@@ -24,7 +24,7 @@ function Showcase() {
             >
               <span className={s.typistItem}>Exponention Growth</span>
               <Typist.Backspace count={25} delay={800} />
-              <span className={s.typistItem}>Driving the Future of Money</span>
+              <span className={s.typistItem}>A new revolution of Stablecoins</span>
               <Typist.Backspace count={25} delay={800} />
             </Typist>
           ) : (

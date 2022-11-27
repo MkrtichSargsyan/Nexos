@@ -16,18 +16,19 @@ import im10 from '../../../assets/images/sliderImages/kraken.svg';
 function Adoption() {
   return (
     <section className={s.adoptionSection}>
-      <h3 className={s.title}>Widespread adoption</h3>
+      <h3 className={s.title}>A new way to build trust</h3>
       <p>
-        From being the first, to the most used, stablecoin, and one of the most
-        traded tokens by volume, Nexos tokens have come a long way. Nexos
-        tokens are today the most widely adopted stablecoins across major
-        exchanges, OTC desks, and wallets, including:
+        From the first to the most used stablecoin and one of the most traded
+        tokens by volume, this is the path Nexos wants to take with $NUSD.
+        Because the entire crypto market today is based on stablecoins, where it
+        is not certain whether and how much collateral they have deposited,
+        Nexos will usher in a new era.
       </p>
 
       <section className={s.sliderSection}>
         <Slider
           autoplay
-          slidesToShow={window.screen.width < 768 ? 1: 4}
+          slidesToShow={window.screen.width < 768 ? 1 : 4}
           centerMode
           pauseOnHover={false}
           arrows={false}
@@ -68,35 +69,34 @@ function Adoption() {
       </section>
 
       <h3 className={s.title}>
-        The token that is disrupting the global financial industry
+        The token that will turn the global financial industry on its head
       </h3>
 
       <div className={s.articles}>
         <article>
           <div>
-            <h3>Nexos for Individuals</h3>
-        
+            <h3>NUSD for individuals</h3>
           </div>
           <p>
-            Nexos tokens offer exceptional liquidity on tier one exchanges
-            giving traders the ability to take advantage of arbitrage
-            opportunities in the fastest time possible.
+            Nexos tokens will offer exceptional liquidity on top-tier exchanges,
+            enabling traders to take advantage of arbitrage opportunities in the
+            shortest possible time.
           </p>
           <button>Learn more {'->'}</button>
         </article>
         <article>
-          <h3>Nexos for Merchants</h3>
+          <h3>NUSD for merchants</h3>
           <p>
-            For merchants, integrating Nexos tokens opens up an array of
+            For merchants, the integration of $NUSD tokens opens up a range of
             opportunities for consumers to purchase products and services.
           </p>
           <button>Learn more {'->'}</button>
         </article>
         <article>
-          <h3>Nexos for Exchanges</h3>
+          <h3>NUSD for Exchanges</h3>
           <p>
-            Nexos tokens play a pivotal role in the digital token ecosystem and
-            are the most actively traded in terms of 24-hour volume.
+            Nexos tokens play a central role in the digital token ecosystem and
+            will be the most actively traded in terms of 24-hour volume.
           </p>
           <button>Learn more {'->'}</button>
         </article>

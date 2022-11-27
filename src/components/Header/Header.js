@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 import { HeaderContainer, LogoContainer, MenuContainer } from './Header.styles';
 import { ReactComponent as Menu } from '../../assets/menuBlack.svg';
+import menu from '../../assets/menu.png';
 
 function Header({ openSidebar }) {
   return (
@@ -27,7 +28,8 @@ function Header({ openSidebar }) {
         <span className="signinBtn">Sign Up</span>
       </div>
       <MenuContainer to={'/'}>
-        <Menu onClick={() => openSidebar(true)} />
+        <img src={menu} alt="menu" onClick={() => openSidebar(true)} />
+        {/* <Menu onClick={() => openSidebar(true)} /> */}
       </MenuContainer>
     </header>
   );

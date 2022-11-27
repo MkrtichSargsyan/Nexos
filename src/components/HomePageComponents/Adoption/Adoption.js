@@ -75,7 +75,7 @@ function Adoption() {
       <div className={s.articles}>
         <article>
           <div>
-            <h3>NUSD for individuals</h3>
+            <h3>NUSD for Individuals</h3>
           </div>
           <p>
             Nexos tokens will offer exceptional liquidity on top-tier exchanges,
@@ -85,7 +85,7 @@ function Adoption() {
           {/* <button>Learn more {'->'}</button> */}
         </article>
         <article>
-          <h3>NUSD for merchants</h3>
+          <h3>NUSD for Merchants</h3>
           <p>
             For merchants, the integration of $NUSD tokens opens up a range of
             opportunities for consumers to purchase products and services.

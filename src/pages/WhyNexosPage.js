@@ -10,7 +10,7 @@ function WhyNexosPage() {
       <WhyUseNexos />
       <AboutNexos />
       <AboutToken />
-      <LatestNews />
+      {/* <LatestNews /> */}
     </main>
   );
 }

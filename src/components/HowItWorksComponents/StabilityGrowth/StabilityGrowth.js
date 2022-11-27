@@ -8,13 +8,13 @@ function StabilityGrowth() {
     <section className={s.stabilityGrowthSection}>
       <img src={im7} alt="bg" className={s.bgImage} />
       <div className={s.stabilityGrowthDescription}>
-        <h2>More stability, more growth</h2>
+        <h2>Balance sheet stability through growth</h2>
         <p>
-          Nexos tokens have grown in popularity over the past few years, with a
-          market cap of over US$77 billion (as of December 2021). Nexos tokens
-          allow customers the ability to transact across different blockchains,
-          without the inherent volatility and complexity typically associated
-          with digital tokens.
+          Nexos tokens will become increasingly popular in the coming years.
+          Nexos tokens allow customers to trade across different blockchains
+          without the inherent volatility and complexity normally associated
+          with digital tokens. By over-collateralizing all $NUSD, Nexos token
+          users are always on the safe side.
         </p>
       </div>
     </section>

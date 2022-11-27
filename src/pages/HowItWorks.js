@@ -14,7 +14,7 @@ function HowItWorks() {
       <BlockchainReady />
       <NewTokens />
       <AboutToken />
-      <LatestNews/>
+      {/* <LatestNews/> */}
     </main>
   );
 }

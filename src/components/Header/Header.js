@@ -29,7 +29,6 @@ function Header({ openSidebar }) {
       </div>
       <MenuContainer to={'/'}>
         <img src={menu} alt="menu" onClick={() => openSidebar(true)} />
-        {/* <Menu onClick={() => openSidebar(true)} /> */}
       </MenuContainer>
     </header>
   );

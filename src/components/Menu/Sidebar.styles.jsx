@@ -17,16 +17,11 @@ const makeSidebarActive = (props) => {
 
 export const SidebarContainer = styled.section`
   position: fixed;
-  /* min-height: 100vh; */
   height: 100%;
-  /* padding: 0 30px; */
   z-index: 2000;
   transition: 1s;
   background-color: white;
 
-  /* @media (max-width: 415px) {
-    padding: 0 5px;
-  } */
 
   svg {
     @media (max-width: 415px) {
@@ -43,6 +38,7 @@ export const SidebarMenuContainer = styled.div`
   align-items: center;
   padding: 20px 50px;
   background-color: #4e4e4e;
+
 
   img {
     width: 100%;

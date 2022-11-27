@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 
 export const LogoContainer = styled(Link)`
   height: 50px;
+  width: 50px;
+
   outline: none;
 
   img {
     height: 100%;
+    width: 100%;
   }
 `;
 

@@ -11,7 +11,7 @@ function FullyTransparent() {
           All Nexos tokens ($NUSD) are 500% backed by Nexos reserves. We publish
           a daily report on the current total assets and reserves.
         </p>
-        <button>Go to Transparency Page</button>
+        {/* <button>Go to Transparency Page</button> */}
       </div>
       <div className={s.imageContainer}>
         <img src={im9} alt="im2" />

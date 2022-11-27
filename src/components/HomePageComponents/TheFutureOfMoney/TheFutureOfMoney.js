@@ -17,7 +17,7 @@ function TheFutureOfMoney() {
           empower growing businesses and innovation across the blockchain space.
           Nexos tokens exist as digital tokens based on multiple blockchains.
         </p>
-        <button className={s.button}>Learn How Nexos Works</button>
+        {/* <button className={s.button}>Learn How Nexos Works</button> */}
       </div>
     </section>
   );

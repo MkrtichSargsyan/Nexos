@@ -82,7 +82,7 @@ function Adoption() {
             enabling traders to take advantage of arbitrage opportunities in the
             shortest possible time.
           </p>
-          <button>Learn more {'->'}</button>
+          {/* <button>Learn more {'->'}</button> */}
         </article>
         <article>
           <h3>NUSD for merchants</h3>
@@ -90,7 +90,7 @@ function Adoption() {
             For merchants, the integration of $NUSD tokens opens up a range of
             opportunities for consumers to purchase products and services.
           </p>
-          <button>Learn more {'->'}</button>
+          {/* <button>Learn more {'->'}</button> */}
         </article>
         <article>
           <h3>NUSD for Exchanges</h3>
@@ -98,7 +98,7 @@ function Adoption() {
             Nexos tokens play a central role in the digital token ecosystem and
             will be the most actively traded in terms of 24-hour volume.
           </p>
-          <button>Learn more {'->'}</button>
+          {/* <button>Learn more {'->'}</button> */}
         </article>
       </div>
     </section>

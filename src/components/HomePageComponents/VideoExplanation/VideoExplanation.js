@@ -1,21 +1,8 @@
 import React from 'react';
 import s from './VideoExplanation.module.scss';
-import poster from '../../../assets/poster.png';
 
 function VideoExplanation() {
-  const [status, setStatus] = React.useState({});
-
-  const renderPoster = () => {
-    if (status.isLoaded) {
-      return null;
-    }
-    return (
-      <div>
-        <img src={poster} alt="poster" className={s.videoPoster} />
-      </div>
-    );
-  };
-
+ 
   return (
     <section className={s.videoExplanationSection}>
       <h2>How are Nexos tokens Issued</h2>

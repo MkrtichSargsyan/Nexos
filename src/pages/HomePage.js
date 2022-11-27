@@ -4,12 +4,14 @@ import Faq from '../components/HomePageComponents/FAQ/Faq';
 import FullyTransparent from '../components/HomePageComponents/FullyTransparent/FullyTransparent';
 import Showcase from '../components/HomePageComponents/Showcase/Showcase';
 import TheFutureOfMoney from '../components/HomePageComponents/TheFutureOfMoney/TheFutureOfMoney';
+import VideoExplanation from '../components/HomePageComponents/VideoExplanation/VideoExplanation';
 
 function HomePage() {
   return (
     <main>
       <Showcase />
       <TheFutureOfMoney />
+      <VideoExplanation />
       <FullyTransparent />
       <Adoption />
       {/* <Faq /> */}

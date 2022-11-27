@@ -5,9 +5,9 @@ header {
   justify-content: space-between;
   background-color: #4e4e4e;
 
-  @media (max-width: 1400px) {
-    flex-direction: column;
-  }
+  // @media (max-width: 1400px) {
+  //   flex-direction: column;
+  // }
 
   @media (max-width: 900px) {
     padding: 20px 100px;
@@ -31,7 +31,7 @@ header {
   .navItems {
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     margin: 0 9vw;
 
     @media (max-width: 1400px) {
@@ -54,6 +54,7 @@ header {
       font-weight: 500;
       line-height: 19px;
       font-weight: bold;
+      margin-right: 20px;
     }
   }
 

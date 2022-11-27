@@ -14,10 +14,26 @@
     font-weight: 700;
   }
 
-  video {
+  .videoContainer {
     width: 80%;
     height: 80%;
-    margin-bottom: 40px;
+    video {
+      width: 80vw;
+      height: 100%;
+      margin-bottom: 40px;
 
+      width: 100%;
+      height: 100%;
+      background: transparent url('../../../assets//poster.png') no-repeat 0 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

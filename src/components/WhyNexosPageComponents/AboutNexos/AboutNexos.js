@@ -33,19 +33,18 @@ function AboutNexos() {
           <img src={im2} alt="im" />
           <h3>Unparalleled liquidity</h3>
           <p>
-            Nexos tokens are among the most traded tokens in terms of daily
-            volume, offering unequalled liquidity.
+            Nexos tokens will be considered among the most traded tokens in
+            terms of daily volume in the future.
           </p>
         </article>
         <article>
           <img src={im7} alt="im" />
-          <h3>A new way to build trust</h3>
+          <h3>A new way to build trust through over-collateralization</h3>
           <p>
-            From the first to the most used stablecoin and one of the most
-            traded tokens by volume, this is the path Nexos wants to take with
-            $NUSD. Because the entire crypto market today is based on
-            stablecoins, where it is not certain whether and how much collateral
-            they have deposited, Nexos will usher in a new era.
+            The 500% overcollateralization of $NUSD in circulation - this is the
+            way Nexos wants to go with $NUSD. Since the entire crypto market
+            today is based on stablecoins, where it is not certain if and how
+            much collateral they have deposited, Nexos will usher in a new era.
           </p>
         </article>
         <article>
@@ -62,16 +61,6 @@ function AboutNexos() {
           <p>
             Nexos tokens’ issued and reserve assets are publicly available and
             updated.{' '}
-          </p>
-        </article>
-        <article>
-          <img src={im8} alt="im" />
-          <h3>Available in different currencies</h3>
-          <p>
-            Nexos supports US dollar (USD), euro (EUR), Mexican Peso (MXN),
-            British Pound Sterling (Nexos GBP) and offshore Chinese yuan (CNH).
-            Represented by ₮, Nexos tokens are denoted as USD₮, EUR₮, MXN₮,
-            GBP₮, CNH₮.
           </p>
         </article>
         <article>

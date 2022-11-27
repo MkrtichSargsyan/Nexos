@@ -5,13 +5,13 @@ header {
   justify-content: space-between;
   background-color: #4e4e4e;
 
-  // @media (max-width: 1400px) {
-  //   flex-direction: column;
-  // }
-
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     padding: 20px 100px;
   }
+
+  // @media (max-width: 900px) {
+  //   padding: 20px 100px;
+  // }
 
   @media (max-width: 768px) {
     flex-direction: row;

@@ -24,9 +24,9 @@ export const SidebarContainer = styled.section`
   transition: 1s;
   background-color: white;
 
-  @media (max-width: 415px) {
+  /* @media (max-width: 415px) {
     padding: 0 5px;
-  }
+  } */
 
   svg {
     @media (max-width: 415px) {

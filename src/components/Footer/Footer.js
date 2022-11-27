@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Footer.module.scss';
 
 import im3 from '../../assets/images/im3.svg';
-import logo2 from '../../assets/logo2.png';
+import logo from '../../assets/logo.png';
 
 function Footer() {
   return (
@@ -65,7 +65,7 @@ function Footer() {
       </section>
       <section className={s.footerBottom}>
         <div className={s.logoContainer}>
-          <img src={logo2} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div>
           <h6>

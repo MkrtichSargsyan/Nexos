@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-import logo1 from '../../assets/logo1.png';
+import logo from '../../assets/logo.png';
 import { NavLink } from 'react-router-dom';
 
 import { HeaderContainer, LogoContainer, MenuContainer } from './Header.styles';
@@ -12,7 +12,7 @@ function Header({ openSidebar }) {
     <header>
       <NavLink to={'/'}>
         <div className="logoContainer">
-          <img src={logo1} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
       </NavLink>
       <div className="navItems">

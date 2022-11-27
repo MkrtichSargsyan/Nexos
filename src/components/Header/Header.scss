@@ -3,6 +3,7 @@ header {
   align-items: center;
   padding: 20px 200px;
   justify-content: space-between;
+  background-color: #4e4e4e;
 
   @media (max-width: 1400px) {
     flex-direction: column;
@@ -42,7 +43,8 @@ header {
 
     a {
       text-decoration: none;
-      color: #586871;
+      // color: #586871;
+      color: white;
       // font-size: 0.8rem;
       font-size: 14px;
       font-style: normal;

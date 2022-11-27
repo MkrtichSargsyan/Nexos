@@ -11,8 +11,9 @@ import {
 } from './Sidebar.styles';
 
 // import { ReactComponent as Logo } from '../../assets/logo1.png';
-import logo from '../../assets/logo1.png';
-import { ReactComponent as ClosingIcon } from '../../assets/x.svg';
+import logo from '../../assets/logo.png';
+import x from '../../assets/x.png'
+// import { ReactComponent as ClosingIcon } from '../../assets/x.png';
 
 import { ROUTES } from './sidebarData';
 import { Link } from 'react-router-dom';
@@ -30,11 +31,14 @@ function Sidebar({ isActive, closeSidebar }) {
           <img src={logo} alt="logo" />
         </LogoContainer>
         <MenuContainer>
-          <ClosingIcon
+          <img src={x} alt="x"  onClick={() => {
+              closeSidebar(false);
+            }} />
+          {/* <ClosingIcon
             onClick={() => {
               closeSidebar(false);
             }}
-          />
+          /> */}
         </MenuContainer>
       </SidebarMenuContainer>
       <SidebarDataContainer>

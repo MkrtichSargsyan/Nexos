@@ -25,7 +25,7 @@ function Adoption() {
         Nexos will usher in a new era.
       </p>
 
-      <section className={s.sliderSection}>
+      {/* <section className={s.sliderSection}>
         <Slider
           autoplay
           slidesToShow={window.screen.width < 768 ? 1 : 4}
@@ -66,7 +66,7 @@ function Adoption() {
             <img src={im10} alt="im" />
           </div>
         </Slider>
-      </section>
+      </section> */}
 
       <h3 className={s.title}>
         The token that will turn the global financial industry on its head

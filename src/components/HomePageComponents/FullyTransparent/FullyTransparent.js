@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './FullyTransparent.module.scss';
-import im2 from '../../../assets/images/im2.svg';
+import im9 from '../../../assets/images/im9.svg';
 
 function FullyTransparent() {
   return (
@@ -14,7 +14,7 @@ function FullyTransparent() {
         <button>Go to Transparency Page</button>
       </div>
       <div className={s.imageContainer}>
-        <img src={im2} alt="im2" />
+        <img src={im9} alt="im2" />
       </div>
     </section>
   );

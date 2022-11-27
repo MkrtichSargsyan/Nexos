@@ -20,7 +20,7 @@ function App() {
         <Route path="/why-nexos" element={<WhyNexosPage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

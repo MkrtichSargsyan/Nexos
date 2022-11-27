@@ -12,7 +12,7 @@ function HomePage() {
       <TheFutureOfMoney />
       <FullyTransparent />
       <Adoption />
-      <Faq />
+      {/* <Faq /> */}
     </main>
   );
 }

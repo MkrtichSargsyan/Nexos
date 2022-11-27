@@ -13,6 +13,7 @@
     margin-left: 100px;
 
     @media (max-width: 768px) {
+      display: none;
       order: 1;
       width: 100%;
       margin-left: 0;

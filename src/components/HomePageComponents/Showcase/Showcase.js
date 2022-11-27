@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Typist from 'react-typist';
 import s from './Showcase.module.scss';
 
-import showcaseImg from '../../../assets/showcaseImg.png';
+import im9 from '../../../assets/images/im9.svg';
 
 function Showcase() {
   const [count, setCount] = useState(1);
@@ -31,13 +31,13 @@ function Showcase() {
             ''
           )}
         </div>
-        <div className={s.showcaseButtons}>
+        {/* <div className={s.showcaseButtons}>
           <button className={s.createAccountBtn}>Create Account</button>
           <button className={s.learnHowWorksBtn}>Learn How Nexos Works</button>
-        </div>
+        </div> */}
       </div>
       <div className={s.showcaseImg}>
-        <img src={showcaseImg} alt="sh" />
+        <img src={im9} alt="sh" />
       </div>
     </section>
   );
